@@ -1,5 +1,5 @@
-import React from 'react'
 
+import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav className='bg-purple-200 flex justify-around px-4 h-14 items-center w-full'>
@@ -8,9 +8,7 @@ const Navbar = () => {
         </div>
       <ul>
         <li className='flex gap-3 cursor-pointer '>
-            <a href='/' className='hover:font-bold'>Home</a>
-            <a href='#' className='hover:font-bold'>About</a>
-            <a href='#' className='hover:font-bold'>Contact</a>
+          <a href="https://github.com/avneetsingh91/Password-Manager"><FaGithub size={45} /></a> 
         </li>
         </ul> 
     </nav>
